@@ -5,7 +5,7 @@ e = 1.60217663e-19
 k = 1.380649e-23
 F = 96485
 e_0 = 8.85418782 * 10**(-12)
-def funct(solutes,solvent,c,T):
+def cond(solutes,solvent,c,T): # returns the conductance for the given solvent
     z1 = solutes["z_cat"]
     z2 = solutes["z_an"]
     v_cat = solutes["v_cat"]
@@ -21,7 +21,6 @@ def funct(solutes,solvent,c,T):
 
     I = 1/2*(abs(z1) + abs(z2))*c
     Lambda_0 = v_cat*lambda_pos_0 + v_an*lambda_neg_0
-    print(v_cat,lambda_pos_0 , v_an,lambda_neg_0,Lambda_0)
     kappa= 50.2901/sqrt(dielectric_coeff*T)* sqrt(I)
     bd = abs(z1*z2)*16.7102e4/(dielectric_coeff*T)
     d=abs(z1*z2)*16.7102e4/(2*dielectric_coeff*T)
