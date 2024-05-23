@@ -11,12 +11,13 @@ Solute parameters are formatted like this:
 -----
 assym_conduct and Simple_conduct are backend code.
 
-assym_conduct  is for asymmetrical electrolytes, and was developed following the paper "EVALUATION OF THE SOLUBILITY OF ELECTROLYTES FROM CONDUCTIVITY MEASUREMENTS" by R. FERNANDEZ-PRINI and J-C. JUSTICE
+assym_conduct  is for asymmetrical electrolytes, and was developed following the paper "EVALUATION OF THE SOLUBILITY OF ELECTROLYTES FROM CONDUCTIVITY MEASUREMENTS"
 
-Simple_conduct is for symmetrial electrolyes, it's not really used cause assym_conduct covers everything. It is based on the paper "Predicting Electrolyte Conductivity Directly from Molecular-Level Interactions" by Yumin Zhang, Imanuel Bier, and Venkatasubramanian Viswanathan
+Simple_conduct is for symmetrial electrolyes, it's not really used cause assym_conduct covers everything. It is based on the paper "Predicting Electrolyte Conductivity Directly from Molecular-Level Interactions"
 
 -----
-** Sources **
+## Sources 
+
 Predicting Electrolyte Conductivity Directly from Molecular-Level Interactions
 Yumin Zhang, Imanuel Bier, and Venkatasubramanian Viswanathan
 ACS Energy Letters 2022 7 (11), 4061-4070
